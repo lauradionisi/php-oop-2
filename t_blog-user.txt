@@ -1,0 +1,11 @@
+t_user 
+
+id					numero		auto_increment	PRIMARY KEY unique
+name					stringa		varchar(15)		NOT NULL
+surname					stringa		varchar(20)		NOT NULL
+username				stringa		varchar(20)		NULL
+email					stringa		varchar(20)		NOT NULL
+subscription_date			data		Year			NOT NULL
+password				stringa		varchar(8)		NOT NULL
+contibutions				stringa		text			NULL
+
